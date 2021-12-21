@@ -1,4 +1,6 @@
-include: fedora-common-ostree.yaml
+include: 
+  - fedora-common-ostree.yaml
+  - layering-microdnf.yaml
 ref: fedora/35/${basearch}/base
 rojig:
   name: fedora-base

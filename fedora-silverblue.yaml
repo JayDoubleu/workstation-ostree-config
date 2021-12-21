@@ -1,4 +1,6 @@
-include: gnome-desktop-pkgs.yaml
+include: 
+  - gnome-desktop-pkgs.yaml
+  - layering-microdnf.yaml
 ref: fedora/35/${basearch}/silverblue
 rojig:
   name: fedora-silverblue
