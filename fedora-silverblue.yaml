@@ -23,7 +23,10 @@ packages:
   # Include totem-video-thumbnailer for video thumbnailing in Nautilus
   # https://pagure.io/fedora-workstation/issue/168
   - totem-video-thumbnailer
+  - rpm-ostree-2021.14.99.gb2963f9a-1.fc35.x86_64
+  - rpm-ostree-libs-2021.14.99.gb2963f9a-1.fc35.x86_64
 
 repos:
   - fedora-35
   - fedora-35-updates
+  - coreos-continuous
